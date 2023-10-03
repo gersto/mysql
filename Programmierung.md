@@ -1,4 +1,4 @@
-# PostgreSQL Programming Interfaces
+# MySQL Programming Interfaces
 
 ## PHP
 
@@ -44,6 +44,29 @@ PHP PDO PostgreSQL driver muss im file php.ini freigeschalten werden
 ```
 
 ### Python
+
+### JavaScript
+
+```javascript
+# npm install mysql
+var mysql = require('mysql');
+
+var con = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "",
+  database: "buch"
+});
+
+con.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+  con.query("SELECT * FROM t_ma_dt", function (err, result, fields) {
+    if (err) throw err;
+    console.log(result);
+  });
+});
+```
 
 ## Links
 
