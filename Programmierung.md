@@ -70,5 +70,4 @@ con.connect(function(err) {
 
 ## Links
 
-- [https://www.php.net/manual/de/pgsql.examples.php](https://www.php.net/manual/de/pgsql.examples.php)
-- [https://www.phptutorial.net/php-pdo/](https://www.phptutorial.net/php-pdo/)
+- [https://www.w3schools.com/nodejs/nodejs_mysql.asp](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
